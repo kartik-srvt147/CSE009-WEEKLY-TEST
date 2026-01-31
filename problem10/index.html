@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Profile Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-950 flex items-center justify-center min-h-screen">
+    <div
+      class="bg-gray-800 rounded-xl shadow-lg p-6 w-full max-w-sm text-center transform transition duration-300 hover:scale-105 border-2 border-teal-500"
+    >
+      <img
+        src="user.png"
+        alt="User Profile"
+        class="size-20 mx-auto rounded-full border-4 border-indigo-500 object-cover mb-4"
+      />
+
+      <h2 class="text-2xl font-semibold text-white">Kartikeya Srivastava</h2>
+
+      <p class="text-gray-500 mt-2 mb-4 text-sm">
+        Web developer, coffee enthusiast, and lifelong learner.
+      </p>
+
+      <div class="flex justify-around bg-gray-50 rounded-lg p-3 mb-4">
+        <div>
+          <p class="font-bold text-gray-800">120</p>
+          <p class="text-gray-500 text-xs">Posts</p>
+        </div>
+        <div>
+          <p class="font-bold text-gray-800">350</p>
+          <p class="text-gray-500 text-xs">Followers</p>
+        </div>
+        <div>
+          <p class="font-bold text-gray-800">180</p>
+          <p class="text-gray-500 text-xs">Following</p>
+        </div>
+      </div>
+
+      <button
+        class="bg-teal-500 text-white font-semibold py-2 px-6 rounded-lg shadow hover:bg-teal-600 transition duration-300"
+      >
+        Follow
+      </button>
+    </div>
+  </body>
+</html>
